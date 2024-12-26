@@ -1,6 +1,6 @@
 # API-Prueba
 
-# Instructivo para Uso de la API
+Instructivo para Uso de la API
 
 ## **Requisitos Previos**
 1. **Python 3.9 o superior**
@@ -178,9 +178,9 @@ CREATE TABLE combined_results (
 ## **Notas Finales**
 - La API utiliza el modelo de HuggingFace `distilbert-base-uncased-finetuned-sst-2-english` para el análisis de sentimientos.
 - El scraping está diseñado para funcionar con estructuras HTML estándar.
-** http://books.toscrape.com/index.html
-** http://books.toscrape.com/catalogue/page-2.html
-** http://books.toscrape.com/catalogue/page-3.html
+** http://books.toscrape.com/index.html **
+** http://books.toscrape.com/catalogue/page-2.html **
+** http://books.toscrape.com/catalogue/page-3.html **
 
 ---
 
