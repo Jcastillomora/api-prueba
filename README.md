@@ -143,7 +143,7 @@ http://127.0.0.1:8000/combined/
 ---
 
 ## **Base de Datos**
-Se almacenan los resultados en un archivo SQLite llamado `data.db` en el directorio raíz del proyecto.
+Se almacenan los resultados en un archivo SQLite llamado `data.db` en el directorio app.
 
 ### **Estructura de Tablas:**
 ```sql
