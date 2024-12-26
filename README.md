@@ -1,4 +1,4 @@
-# api-prueba
+# API-Prueba
 
 # Instructivo para Uso de la API
 
@@ -173,40 +173,18 @@ CREATE TABLE combined_results (
 );
 ```
 
-### **Consultas rápidas en SQLite:**
-
-1. Abrir la base de datos:
-```bash
-sqlite3 data.db
-```
-
-2. Mostrar las tablas existentes:
-```sql
-.tables
-```
-
-3. Ver contenido de cada tabla:
-```sql
-SELECT * FROM scrape_results;
-SELECT * FROM process_results;
-SELECT * FROM combined_results;
-```
-
-4. Salir de SQLite:
-```bash
-.exit
-```
-
 ---
 
 ## **Notas Finales**
 - La API utiliza el modelo de HuggingFace `distilbert-base-uncased-finetuned-sst-2-english` para el análisis de sentimientos.
-- El scraping está diseñado para funcionar con estructuras HTML estándar. En caso de sitios con JavaScript dinámico, se deberá adaptar el código para utilizar herramientas como Playwright o Selenium.
+- El scraping está diseñado para funcionar con estructuras HTML estándar.
+** http://books.toscrape.com/index.html
+** http://books.toscrape.com/catalogue/page-2.html
+** http://books.toscrape.com/catalogue/page-3.html
 
 ---
 
 ## **Autor**
-- **Nombre:** [Tu Nombre]
-- **Correo Electrónico:** [tuemail@ejemplo.com]
-- **Fecha:** [Fecha Actual]
+- **Nombre:** Jorge Castillo
+- **Correo Electrónico:** j.castillomora01@gmail.com
 
